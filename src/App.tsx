@@ -1,11 +1,27 @@
 import React from 'react';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
+import { Container, Row, Col } from 'react-bootstrap';
 
-const App = () => {
+import Hero from './components/Hero';
+
+const App: React.FC = () => {
     return (
-        <div className="App">
-            esta funcionando
-        </div>
+        <Container fluid>
+            <Row className="justify-content-md-center mt-5">
+                <Col xs={12} md={4}>
+                    <Hero />
+                </Col>
+                <Col xs={1} md={1}></Col>
+                <Col xs={12} md={6}>
+                
+                </Col>
+            </Row>
+            
+            
+            
+            
+        </Container>
   );
 }
 
