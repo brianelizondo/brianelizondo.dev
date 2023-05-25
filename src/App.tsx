@@ -4,7 +4,7 @@ import './App.css';
 import { Container, Row, Col } from 'react-bootstrap';
 
 import Hero from './components/Hero';
-import CustomNavbar from './components/Navbar';
+import About from './components/About';
 
 const App: React.FC = () => {
     return (
@@ -12,11 +12,10 @@ const App: React.FC = () => {
         <Row className="justify-content-md-center">
             <Col xs={12} md={4}>
                 <Hero />
-                <CustomNavbar />
             </Col>
             <Col xs={1} md={1}></Col>
             <Col xs={12} md={6}>
-            
+                <About />
             </Col>
         </Row>
     </Container>

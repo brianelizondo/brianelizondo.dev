@@ -5,13 +5,13 @@ import { AboutIcon, ContactIcon, ExperienceIcon, ProjectsIcon, SkillsIcon } from
 
 const CustomNavbar: React.FC = () => {
     return (
-        <Container className="CustomNavbar">
-            <div className="CustomNavbarItem mb-3"><AboutIcon />About</div>
-            <div className="CustomNavbarItem mb-3"><ExperienceIcon />Experience</div>
-            <div className="CustomNavbarItem mb-3"><SkillsIcon />Skills</div>
-            <div className="CustomNavbarItem mb-3"><ProjectsIcon />Projects</div>
-            <div className="CustomNavbarItem"><ContactIcon /> Contact</div>
-        </Container>
+    <Container className="CustomNavbar">
+        <div className="CustomNavbarItem mb-3"><AboutIcon />About</div>
+        <div className="CustomNavbarItem mb-3"><ExperienceIcon />Experience</div>
+        <div className="CustomNavbarItem mb-3"><SkillsIcon />Skills</div>
+        <div className="CustomNavbarItem mb-3"><ProjectsIcon />Projects</div>
+        <div className="CustomNavbarItem"><ContactIcon /> Contact</div>
+    </Container>
     );
 }
 

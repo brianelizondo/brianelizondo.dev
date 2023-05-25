@@ -1,0 +1,29 @@
+.About{
+    min-height: 100vh;
+}
+
+.AboutTitle{
+    margin-top: 60px;
+}
+.AboutTitle h1{
+    font-size: 5.3rem;
+    font-weight: 700;
+}
+.AboutTitle h2{
+    font-size: 4rem;
+    font-weight: 400;
+}
+.AboutTitle h4{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+.AboutText{
+    padding-top: 30px;
+    font-size: 1.1rem;
+    color: lightgray;
+    padding-right: 20%;
+}
+.AboutText span{
+    font-weight: 700;
+}
