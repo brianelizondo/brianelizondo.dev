@@ -1,0 +1,18 @@
+.CustomNavbar{
+    padding-top: 50px;
+}
+
+.CustomNavbarItem{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.CustomNavbarItem i{
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding-right: 15px;
+    color: lightgray;
+}
+.CustomNavbarIcon {
+    color: grey;
+    padding-right: 15px;
+}
