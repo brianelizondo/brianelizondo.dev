@@ -17,10 +17,10 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
     return (
     <Container>
         <Row>
-            <Col xs={1} md={3}>
+            <Col xs={12} md={3}>
                 <div>{experience.period}</div>
             </Col>
-            <Col xs={1} md={9}>
+            <Col xs={12} md={9}>
                 <div>{ experience.position }</div>
                 <div>{ experience.company }</div>
                 <div>{ experience.description }</div>
