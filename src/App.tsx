@@ -5,6 +5,7 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 import Hero from './components/Hero';
 import About from './components/About';
+import Experience from './components/Experience';
 
 const App: React.FC = () => {
     return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
             <Col xs={1} md={1}></Col>
             <Col xs={12} md={6}>
                 <About />
+                <Experience />
             </Col>
         </Row>
     </Container>
