@@ -1,0 +1,12 @@
+.ProjectCardContent-start{
+    display: flex;
+    justify-content: flex-start;
+}
+.ProjectCardContent-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ProjectCardContentInfo{
+    width: 70% !important;
+}

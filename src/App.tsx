@@ -20,9 +20,9 @@ const App: React.FC = () => {
             <Col xs={1} md={1}></Col>
             <Col xs={12} md={6}>
                 <About />
-                <Experience />
                 <Skills />
                 <Projects />
+                <Experience />
                 <Contact />
             </Col>
         </Row>

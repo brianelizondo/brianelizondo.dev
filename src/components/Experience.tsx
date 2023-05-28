@@ -14,11 +14,13 @@ const Experience: React.FC = () => {
             <h4><ExperienceIcon /> Professional Experience</h4>
         </Row>
         <Row className="ExperienceContent">
-            { experiences.map((experience) => (
-            <Row key={experience.id}>
-                <ExperienceCard experience={experience} />
-            </Row>
-            )) }
+            <Col xs={12} md={12}>
+                { experiences.map((experience, index) => (
+                <Row key={index}>
+                    <ExperienceCard experience={experience} />
+                </Row>
+                )) }
+            </Col>
         </Row>
     </Container>
   );

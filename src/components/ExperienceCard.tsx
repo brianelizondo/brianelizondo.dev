@@ -4,7 +4,6 @@ import { Container, Row, Col } from 'react-bootstrap';
 
 interface ExperienceCardProps {
     experience: {
-        id: number,
         period: string,
         company: string,
         position: string,
