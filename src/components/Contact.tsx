@@ -16,7 +16,7 @@ const Contact: React.FC = () => {
                     <p>Got a question or proposal, or just want to say hello? Go ahead.</p>
                     <p>I am currently open to new opportunities!</p>
                 </div>
-                <div className="ContactButton"><Button>Say Hello</Button></div>
+                <div className="ContactButton"><a href="mailto:me@brianelizondo.dev">Say Hello</a></div>
             </Col>
         </Row>
     </Container>

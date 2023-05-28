@@ -9,7 +9,7 @@ import ProjectsCard from './ProjectsCard';
 const Projects: React.FC = () => {
     let divInfoFloatAlign = "start";
     return (
-    <Container id="project" className="Projects">
+    <Container id="projects" className="Projects">
         <Row className="ProjectsTitle">
             <h4><ProjectsIcon /> Some of My Projects</h4>
         </Row>
