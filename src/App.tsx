@@ -13,6 +13,7 @@ import Contact from './components/Contact';
 const App: React.FC = () => {
     return (
     <Container fluid className="App">
+        <div className="AppBgEffect"></div>
         <Row className="justify-content-md-center">
             <Col xs={12} md={4}>
                 <Hero />
