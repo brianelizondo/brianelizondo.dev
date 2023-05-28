@@ -13,11 +13,20 @@ const CustomNavbar: React.FC = () => {
 
     return (
     <Container className="CustomNavbar">
-        <div onClick={() => handleClick('about')} className="CustomNavbarItem mb-3"><AboutIcon />About</div>
-        <div onClick={() => handleClick('skills')} className="CustomNavbarItem mb-3"><SkillsIcon />Skills</div>
-        <div onClick={() => handleClick('projects')} className="CustomNavbarItem mb-3"><ProjectsIcon />Projects</div>
-        <div onClick={() => handleClick('experience')} className="CustomNavbarItem mb-3"><ExperienceIcon />Experience</div>
-        <div onClick={() => handleClick('contact')} className="CustomNavbarItem"><ContactIcon /> Contact</div>
+        <div className="CustomNavbarMobile d-block d-sm-block d-md-none">
+            <div onClick={() => handleClick('about')} className="CustomNavbarItem"><AboutIcon /></div>
+            <div onClick={() => handleClick('skills')} className="CustomNavbarItem"><SkillsIcon /></div>
+            <div onClick={() => handleClick('projects')} className="CustomNavbarItem"><ProjectsIcon /></div>
+            <div onClick={() => handleClick('experience')} className="CustomNavbarItem"><ExperienceIcon /></div>
+            <div onClick={() => handleClick('contact')} className="CustomNavbarItem"><ContactIcon /> </div>
+        </div>
+        <div className="d-none d-sm-none d-md-block">
+            <div onClick={() => handleClick('about')} className="CustomNavbarItem"><AboutIcon />About</div>
+            <div onClick={() => handleClick('skills')} className="CustomNavbarItem"><SkillsIcon />Skills</div>
+            <div onClick={() => handleClick('projects')} className="CustomNavbarItem"><ProjectsIcon />Projects</div>
+            <div onClick={() => handleClick('experience')} className="CustomNavbarItem"><ExperienceIcon />Experience</div>
+            <div onClick={() => handleClick('contact')} className="CustomNavbarItem"><ContactIcon /> Contact</div>
+        </div>
     </Container>
     );
 }

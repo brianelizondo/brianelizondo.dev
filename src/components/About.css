@@ -1,3 +1,13 @@
+@media screen and (max-width: 768px) {
+    .About{
+        min-height: auto !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .About{
+        min-height: auto !important;
+    }
+}
 .About{
     min-height: 100vh;
     padding-bottom: 50px;

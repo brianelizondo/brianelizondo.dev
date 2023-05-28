@@ -1,3 +1,13 @@
+@media screen and (max-width: 768px) {
+    .Hero{
+        min-height: auto !important;
+    }
+}
+@media screen and (max-width: 576px) {
+    .Hero{
+        min-height: auto !important;
+    }
+}
 .Hero{
     min-height: 100vh;
 }
@@ -7,9 +17,10 @@
 }
 .Hero h3{
     font-size: 1.2rem;
+    color: greenyellow;
 }
 .Hero p{
-    margin-top: 20px;
+    margin-top: 10px;
     font-size: 0.9rem;
     color: lightgray;
 }
