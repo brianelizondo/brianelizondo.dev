@@ -3,6 +3,7 @@ import './Hero.css';
 import { Container, Row } from 'react-bootstrap';
 
 import CustomNavbar from './Navbar';
+import FooterNavbar from './FooterNavbar';
 
 const Hero: React.FC = () => {
     return (
@@ -18,6 +19,9 @@ const Hero: React.FC = () => {
         </Row>
         <Row>
             <CustomNavbar />
+        </Row>
+        <Row>
+            <FooterNavbar />
         </Row>
     </Container>
   );

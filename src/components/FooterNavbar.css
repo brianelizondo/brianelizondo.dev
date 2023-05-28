@@ -1,0 +1,10 @@
+.FooterNavbar{
+    padding-top: 10vh;
+}
+.FooterNavbarIcon{
+    padding: 10px 15px 10px 0px;
+}
+.FooterNavbarIcon svg{
+    min-width: 30px;
+    min-height: 30px;
+}
