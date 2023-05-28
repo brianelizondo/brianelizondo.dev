@@ -1,0 +1,49 @@
+.ExperienceCard{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-radius: 10px;
+    transition: background-color 0.5s ease-out;
+}
+.ExperienceCard:hover{
+    background-color: rgba(173, 255, 47, 0.1);
+}
+.ExperienceCard-period{
+    font-weight: 300;
+    font-size: 1rem;
+    color: lightgrey;
+    padding-top: 3px;
+}
+.ExperienceCard-position{
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: greenyellow;
+}
+.ExperienceCard-company{
+    font-weight: 400;
+    font-size: 1.1rem;
+    color: white;
+    padding-bottom: 10px;
+}
+.ExperienceCard-description{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: lightgray;
+    padding-bottom: 10px;
+}
+.ExperienceCard-skills{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: lightgray;
+}
+.ExperienceCard-skills-item{
+    color: greenyellow;
+    width: fit-content;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center !important;
+    border-radius: 10px;
+    background-color: rgba(173, 255, 47, 0.3);
+    padding: 5px 15px;
+    margin: 5px 10px 5px 0px;
+    float: left;
+}

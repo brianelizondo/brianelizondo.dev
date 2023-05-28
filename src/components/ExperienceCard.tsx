@@ -17,14 +17,14 @@ const ExperienceCard: React.FC<ExperienceCardProps> = ({ experience }) => {
     <Container>
         <Row>
             <Col xs={12} md={3}>
-                <div>{experience.period}</div>
+                <div className="ExperienceCard-period">{experience.period}</div>
             </Col>
             <Col xs={12} md={9}>
-                <div>{ experience.position }</div>
-                <div>{ experience.company }</div>
-                <div>{ experience.description }</div>
-                <div>
-                    { experience.skills.map((skill) => skill) }                
+                <div className="ExperienceCard-position">{ experience.position }</div>
+                <div className="ExperienceCard-company">{ experience.company }</div>
+                <div className="ExperienceCard-description">{ experience.description }</div>
+                <div className="ExperienceCard-skills">
+                    { experience.skills.map((skill, index) => <div key={index} className="ExperienceCard-skills-item">{ skill }</div>) }                
                 </div>
             </Col>
         </Row>
