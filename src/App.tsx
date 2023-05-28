@@ -15,11 +15,11 @@ const App: React.FC = () => {
     <Container fluid className="App">
         <div className="AppBgEffect"></div>
         <Row className="justify-content-md-center">
-            <Col xs={12} md={4}>
+            <Col xs={12} md={3}>
                 <Hero />
             </Col>
             <Col xs={1} md={1}></Col>
-            <Col xs={12} md={6}>
+            <Col xs={12} md={7}>
                 <About />
                 <Skills />
                 <Projects />

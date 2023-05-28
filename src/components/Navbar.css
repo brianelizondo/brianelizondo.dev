@@ -17,7 +17,7 @@
 .CustomNavbarItem:hover{
     cursor: pointer;
     background-color: rgba(173, 255, 47, 0.15);
-    border: 1px solid yellowgreen;
+    border: 1px solid greenyellow;
 }
 
 .CustomNavbarIcon {

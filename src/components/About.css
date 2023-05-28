@@ -1,40 +1,52 @@
 @media screen and (max-width: 768px) {
     .About{
         min-height: auto !important;
+        padding-bottom: 70px;
     }
-}
-@media screen and (max-width: 576px) {
-    .About{
-        min-height: auto !important;
+    .AboutTitle h1{
+        font-size: 4.3rem !important;
+    }
+    .AboutTitle h2{
+        font-size: 2.6rem !important;
+    }
+    .AboutTitle h4{
+        margin-top: 60px;
+        font-size: 1.2rem !important;
+    }
+    .AboutText{
+        font-size: 1rem !important;
     }
 }
 .About{
     min-height: 100vh;
-    padding-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.AboutTitle{
-    margin-top: 60px;
-}
 .AboutTitle h1{
-    font-size: 5.3rem;
+    font-size: 5.8rem;
     font-weight: 700;
+    color: greenyellow;
 }
 .AboutTitle h2{
-    font-size: 4rem;
+    font-size: 3.5rem;
     font-weight: 400;
+    color: white;
 }
 .AboutTitle h4{
     font-size: 1.5rem;
     font-weight: 300;
+    color: white;
 }
 
 .AboutText{
     padding-top: 30px;
     font-size: 1.1rem;
     color: lightgray;
-    padding-right: 20%;
+    padding-right: 15%;
 }
 .AboutText span{
     font-weight: 700;
+    color: greenyellow;
 }
