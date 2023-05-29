@@ -3,6 +3,8 @@ import './Contact.css';
 import { Container, Row } from 'react-bootstrap';
 import { ContactIcon } from '../helpers/NavbarIcons';
 
+import FooterNavbar from './FooterNavbar';
+
 const Contact: React.FC = () => {
     const handleEmailClick = () => {
         window.location.href = "mailto:me@brianelizondo.dev";
@@ -19,6 +21,9 @@ const Contact: React.FC = () => {
                 <p>I am currently open to new opportunities!</p>
             </div>
             <div className="ContactButton" onClick={handleEmailClick}>Say Hello</div>
+        </Row>
+        <Row className="Contact-links d-block d-sm-block d-md-none">
+            <FooterNavbar />
         </Row>
     </Container>
   );

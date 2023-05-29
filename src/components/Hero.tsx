@@ -20,7 +20,7 @@ const Hero: React.FC = () => {
         <Row>
             <CustomNavbar />
         </Row>
-        <Row>
+        <Row className="Hero-links d-none d-sm-block d-sm-none d-md-block">
             <FooterNavbar />
         </Row>
     </Container>
