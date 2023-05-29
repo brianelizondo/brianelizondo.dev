@@ -1,12 +1,42 @@
-.ProjectCardContent-start{
-    display: flex;
-    justify-content: flex-start;
+@media screen and (max-width: 768px) {
+    .ProjectCardContentInfo-name{
+        padding-top: 20px;
+    }
 }
-.ProjectCardContent-end{
-    display: flex;
-    justify-content: flex-end;
+@media screen and (max-width: 576px) {
+    .ProjectCardContentInfo-name{
+        padding-top: 20px;
+    }
 }
 
-.ProjectCardContentInfo{
-    width: 70% !important;
+.ProjectCardContentInfo-name{
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: greenyellow;
+    padding-bottom: 10px;
+}
+.ProjectCardContentInfo-description{
+    font-weight: 400;
+    font-size: 0.9rem;
+    color: white;
+    border-radius: 10px;
+}
+.ProjectCardContentInfo-skills{
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+.ProjectCardContentInfo-skills-item{
+    color: greenyellow;
+    width: fit-content;
+    font-size: 0.8rem;
+    font-weight: 400;
+    text-align: center !important;
+    border-radius: 10px;
+    background-color: rgba(173, 255, 47, 0.15);
+    padding: 5px 15px;
+    margin: 5px 10px 5px 0px;
+}
+.ProjectCardContentInfo-links{
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
