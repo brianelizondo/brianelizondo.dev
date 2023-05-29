@@ -10,6 +10,7 @@ import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Loading from './components/Loading';
+import consoleMessage from './helpers/ConsoleMessage';
 
 const App: React.FC = () => {
     const [isLoading, setIsLoading] = useState<boolean>(true);
@@ -17,9 +18,10 @@ const App: React.FC = () => {
         setTimeout(() => {
             setIsLoading(false);
         }, 2000);
-    }, []);
+    }, [isLoading]);
 
     if(isLoading){
+        console.log(consoleMessage);
         return <Loading />;
     }
 
