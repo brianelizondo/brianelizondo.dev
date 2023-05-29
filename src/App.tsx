@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState, useEffect} from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 import { Container, Row, Col } from 'react-bootstrap';
@@ -9,8 +9,20 @@ import Experience from './components/Experience';
 import Skills from './components/Skills';
 import Projects from './components/Projects';
 import Contact from './components/Contact';
+import Loading from './components/Loading';
 
 const App: React.FC = () => {
+    const [isLoading, setIsLoading] = useState<boolean>(true);
+    useEffect(() => {
+        setTimeout(() => {
+            setIsLoading(false);
+        }, 2000);
+    }, []);
+
+    if(isLoading){
+        return <Loading />;
+    }
+
     return (
     <Container fluid className="App">
         <div className="AppBgEffect"></div>
@@ -28,7 +40,7 @@ const App: React.FC = () => {
             </Col>
         </Row>
     </Container>
-  );
+    )
 }
 
 export default App;
