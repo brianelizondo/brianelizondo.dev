@@ -8,5 +8,5 @@
     left: 0;
     top: 0;
     z-index: -1;
-    background-image: radial-gradient(circle at 0% 0%, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.98) 8%);
+    background-image: radial-gradient(circle at 0% 0%, rgba(0, 0, 0, 0.75) 0%, rgba(0, 0, 0, 0.99) 15%);
 }
