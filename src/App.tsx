@@ -27,7 +27,7 @@ const App: React.FC = () => {
 
     return (
     <Container fluid className="App">
-        <div className="AppBgEffect"></div>
+        <div id="AppBgEffect" className="AppBgEffect"></div>
         <Row className="justify-content-md-center">
             <Col xs={12} md={3}>
                 <Hero />

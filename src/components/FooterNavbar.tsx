@@ -8,7 +8,7 @@ const FooterNavbar: React.FC = () => {
     <Container className="FooterNavbar">
         <a href="https://www.linkedin.com/in/brian-elizondo" target="_blank" title="Brian Elizondo LinkedIn Profile" rel="noreferrer"><LinkedinIcon /></a>
         <a href="https://www.github.com/brianelizondo" target="_blank" title="Brian Elizondo GitHub profile" rel="noreferrer"><GithubIcon /></a>
-        <a href="https://www.twitter/elchebrian" target="_blank" title="Brian Elizondo Twitter" rel="noreferrer"><TwitterIcon /></a>
+        <a href="https://www.twitter.com/elchebrian" target="_blank" title="Brian Elizondo Twitter" rel="noreferrer"><TwitterIcon /></a>
     </Container>
   );
 }

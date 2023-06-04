@@ -16,7 +16,7 @@ const projects: Project[] = [
         skills: ["TypeScript", "JavaScript", "React", "CSS Animations", "CSS Transitions"],
         image: "brianelizondo_v1.png",
         links: {
-            github: "https://www.github.com/brianelizondo/my-portfolio-v1",
+            github: "https://www.github.com/brianelizondo/brianelizondo.dev",
             website: "https://www.brianelizondo.dev"
         }
     },
@@ -26,7 +26,7 @@ const projects: Project[] = [
         skills: ["TypeScript", "JavaScript", "Node.js", "TensorFlow", "OpenAI", "ChatGPT", "DALL-E"],
         image: "ai_connectify.png",
         links: {
-            github: "https://github.com/brianelizondo/ai-connectify",
+            github: "https://www.github.com/brianelizondo/ai-connectify",
             website: "https://www.npmjs.com/package/ai-connectify"
         }
     },
@@ -57,7 +57,7 @@ const projects: Project[] = [
         image: "modo_designworks.png",
         links: {
             github: false,
-            website: "https://www.mmodo-store.com/designworks"
+            website: "http://www.modo-store.com/designworks"
         }
     }
 ]

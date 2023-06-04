@@ -1,46 +1,48 @@
-# Getting Started with Create React App
+<div align="center">
+    <img alt="Brian Elizondo Logo" src="https://www.github.com/brianelizondo/brianelizondo.dev/public/images/brianelizondo_logo.png" width="125" />
+</div>
+<h1 align="center">brianelizondo.dev</h1>
+<p align="center">
+    This is the first version of my portfolio website using TypeScript, JavaScript, React, Bootstrap, jQuery and CCS Animations/Transitions.
+</p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+![preview](https://www.github.com/brianelizondo/brianelizondo.dev/public/images/brianelizondo_screenshot.jpg)
 
-## Available Scripts
+## 🚀 Building and Deploy for Production
 
-In the project directory, you can run:
+I used the [gh-pages](https://www.npmjs.com/package/gh-pages) library to display the page in GitHub Pages but you can use your preferred method.
 
-### `npm start`
+1. Install `gh-pages` as a development dependency
+    ```console
+    $ npm install gh-pages --save-dev
+    ```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+2. Add the `homepage` property to the `package.json` with your personal domain or GitHub Page personal domain.
+    ```json
+    {
+        "homepage": "https://brianelizondo.dev"
+    }
+    ```
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+3. Add the following commands in the `script` property of the `package.json` file.
+    ```json
+    {
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    }
+    ```
 
-### `npm test`
+4. Deploy your website in GitHub Pages with your personal domain, this will create a `gh-pages` branch on your repo and push only the files inside the build directory to it.
+    ```console
+    $ npm run deploy
+    ```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+5. Go to your GitHub repo's Settings then under `Pages` verify that GitHub set the source to `gh-pages` branch.
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🎨 Pallet Color Reference
+| Color Name     | Hex                                                                |
+| -------------- | ------------------------------------------------------------------ |
+| Black          | ![#000000](https://via.placeholder.com/10/000000?text=+) `#000000` |
+| White          | ![#ffffff](https://via.placeholder.com/10/ffffff?text=+) `#ffffff` |
+| Green Yellow   | ![#adff2f](https://via.placeholder.com/10/adff2f?text=+) `#adff2f` |
