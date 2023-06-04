@@ -1,12 +1,12 @@
 <div align="center">
-    <img alt="Brian Elizondo Logo" src="https://github.com/brianelizondo/brianelizondo.dev/tree/master/public/images/brianelizondo_logo.png" width="125" />
+    <img alt="Brian Elizondo Logo" src="public/images/brianelizondo_logo.png" width="125" />
 </div>
 <h1 align="center">brianelizondo.dev</h1>
 <p align="center">
     This is the first version of my portfolio website using TypeScript, JavaScript, React, Bootstrap, jQuery and CCS Animations/Transitions.
 </p>
 
-![preview](https://github.com/brianelizondo/brianelizondo.dev/tree/master/public/images/brianelizondo_screenshot.jpg)
+[![preview](public/images/brianelizondo_screenshot.jpg)](https://www.brianelizondo.dev)
 
 ## 🚀 Building and Deploy for Production
 
