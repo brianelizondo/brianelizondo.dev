@@ -10,7 +10,14 @@
     font-size: 1rem;
 }
 .SkillsTags{
-    padding-top: 30px;
+    margin-top: 20px;
+}
+.SkillsTagsCategory{
+    width: 100%;
+    margin-bottom: 40px;
+}
+.SkillsTagsCategory h6{
+    font-weight: 700;
 }
 .SkillsTags-item{
     color: greenyellow;

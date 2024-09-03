@@ -16,9 +16,14 @@ const Skills: React.FC = () => {
                 <p>In my spare time I continue developing projects for myself or for clients. I've been working on a side project (AI-Connectify) that allows developers to work with multiple AI services at the same time using a single library.</p>
                 <p>Here are some technologies I've been working with recently and before:</p>
             </div>
-            <div className="SkillsTags">
-                { skills.map((skill, index) => (<div key={index} className="SkillsTags-item">{skill}</div>)) }
-            </div>
+        </Row>
+        <Row className="SkillsTags">
+            { Object.entries(skills).map((([skillCategory, skills], index) => (
+                <div className="SkillsTagsCategory" key={index}>
+                    <h6>{skillCategory}</h6>
+                    {skills.map((skill, idx) => (<div key={idx} className="SkillsTags-item">{skill}</div>))}
+                </div>
+            )))}
         </Row>
     </Container>
   );
