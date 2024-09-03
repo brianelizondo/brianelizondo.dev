@@ -10,30 +10,30 @@ const experiences: Experience[] = [
     {
         period: "SEP 2019 - Present",
         company: "Amazon",
-        position: "Fulfillment Center and Robotics Associate",
-        description: "I work as a stower and also contribute to the Amazon Robotics team within the facility. As a stower, I receive and process products efficiently, ensuring precise storage and organization. Additionally, in the Amazon Robotics team, I operate and maintain robotic systems to facilitate the seamless flow of products throughout the center. I troubleshoot technical issues and collaborate with cross-functional teams to optimize the performance of the robotic systems. I actively contribute to enhancing the functionality and efficiency of the robotic systems. My focus is on maintaining a safe and efficient work environment, adhering to standard operating procedures, and ensuring customer satisfaction.",
+        position: "Fulfillment Center Robotics Associate",
+        description: "As a Fulfillment Center Robotics Associate, I oversaw and improved the performance of robotic systems in a warehouse setting, enhancing overall workflow efficiency. I troubleshooted issues related to automation to maintain the operation of robotic systems and addressed complex challenges, implementing improvements and integrating robotic systems into the broader warehouse infrastructure in coordination with various departments. I executed intricate examinations of all operational facets to discern and rectify process bottlenecks within the system, offering recommendations that resulted in an 18% improvement in efficiency over six months. Additionally, I ensured precision throughout order fulfillment, maintaining an order accuracy rate exceeding 99% in a fast-paced center.",
         skills: ["Android", "Problem Solving", "Lead", "Robotics"]
     },
     {
-        period: "JAN 2014 - JUL 2018",
+        period: "JAN 2014 - MAR 2018",
         company: "MODO DesignWorks",
-        position: "Lead Software Engineer",
-        description: "As a Lead Software Engineer in a development company, I played a pivotal role in the success of projects. My main responsibility was to guide and oversee a team of engineers in creating high-quality software. I worked closely with stakeholders to understand project requirements and ensure the delivery of innovative and efficient solutions. Additionally, I ensured adherence to best software development practices, such as implementing testing and adopting agile methodologies. Through my leadership, I fostered a collaborative and motivating work environment that drove excellence and professional growth for each team member.",
-        skills: ["PHP", "JavaScript", "Java", "Node.js" , "React", "MySQL", "PostgreSQL", "noSQL", "APIs", "Testing", "Debugging"]
+        position: "Senior Software Engineer",
+        description: "As a Senior Software Engineer, I guided an agile team of 5 developers and designers in creating customer-facing web and mobile applications tailored to meet the needs of over 100K active users. By implementing CI/CD pipelines, optimizing code review processes, and integrating automated testing best practices, I enhanced software quality and decreased production defects by 40%. I collaborated with a cross-functional team to redesign the flagship web app, resulting in a 22% surge in customer engagement. I tracked the timely delivery of features, met service level agreements, and maintained productive relationships with 3 strategic enterprise clients. Additionally, I mentored 2 junior team members in JavaScript, React.js, Node.js, REST APIs, unit testing, and web accessibility standards, achieving over a 60% increase in their self-assessed capabilities.",
+        skills: ["PHP", "JavaScript", "Java", "Node.js", "React", "MySQL", "PostgreSQL", "noSQL", "APIs", "Testing", "Debugging"]
     },
     {
-        period: "OCT 2014 - JUL 2018",
+        period: "OCT 2014 - MAR 2018",
         company: "MODO Store",
-        position: "Senior Software Engineer",
-        description: "I played a critical role in the development and continuous improvement of the system. My expertise allowed me to lead the design and implementation of key features, as well as optimize the performance and scalability of the platform. I collaborated closely with cross-functional teams, such as design and product, to ensure an exceptional user experience and meet business objectives. Additionally, I had an active role in solving complex technical issues and implementing efficient development practices, such as continuous integration and automated testing. As a senior engineer, I also shared my knowledge and mentored junior team members, fostering a learning environment and professional growth.",
-        skills: ["PHP", "JavaScript", "jQuery", "AJAX", "Bootstrap", "MySQL", "APIs", "Front-End", "Back-End"]
+        position: "Software Engineer",
+        description: "As a Software Engineer, I achieved a 35% upswing in mobile conversion rates within 6 months of launch by conceptualizing a responsive mobile-first UI. I created a secure environment for credit card payments by deploying payment pathways integration as per PCI standards. By optimizing caching and fine-tuning performance, I elevated SEO and user experience, resulting in a 52% reduction in page load times. I fortified the reliability and performance of the infrastructure by establishing automated testing suites and monitoring solutions, contributing to high availability, system resiliency, and efficient issue recovery. Leading a team of 4 developers, I directed the creation, launch, and expansion of a React/Node/PostgreSQL e-commerce platform, processing over 300 monthly sales with an uptime of 99,95%.",
+        skills: ["PHP", "JavaScript", "React", "Node.js","jQuery", "AJAX", "Bootstrap", "MySQL", "APIs", "Front-End", "Back-End"]
     }
     ,
     {
         period: "OCT 2007 - OCT 2013",
         company: "Siragon",
-        position: "Full Stack Web Developer",
-        description: "I was involved in all stages of the software development life cycle. I specialized in both front-end and back-end development, utilizing a wide range of technologies and frameworks to build robust and scalable applications. I collaborated with cross-functional teams to understand business requirements and translated them into functional software solutions. Whether it was designing user interfaces, implementing database systems, or optimizing application performance, I strived to deliver high-quality code and exceptional user experiences. With a strong attention to detail and a passion for continuous learning, I stayed up-to-date with the latest industry trends and technologies to ensure the company remained at the forefront of innovation.",
+        position: "Full-Stack Web Developer",
+        description: "As a Full-Stack Web Developer, I led the phased and incremental migration of a legacy PHP monolith to a decoupled microservices architecture, resulting in a 35% reduction in application downtime. I enhanced the team's delivery velocity twofold by implementing CI/CD pipelines, optimizing the code review process, and introducing automated testing. My efforts to improve front-end performance with caching, minification, and compression methodologies led to a 65% decrease in load times. I provided guidance to 2 junior developers on web standards, security, and best practices, facilitating their onboarding and accelerating their skill development. Managing a user base of over 25K monthly users, I led a team of three developers in the creation of public-facing web applications, utilizing jQuery for the front-end and PHP/MySQL for the Back-End architecture.",
         skills: ["PHP", "JavaScript", "jQuery", "AJAX", "Bootstrap", "HTML", "CSS", "MySQL", "UX"]
     }
 ]
