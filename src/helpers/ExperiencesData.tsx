@@ -10,9 +10,9 @@ const experiences: Experience[] = [
     {
         period: "SEP 2019 - Present",
         company: "Amazon",
-        position: "Fulfillment Center Robotics Associate",
-        description: "As a Fulfillment Center Robotics Associate, I oversaw and improved the performance of robotic systems in a warehouse setting, enhancing overall workflow efficiency. I troubleshooted issues related to automation to maintain the operation of robotic systems and addressed complex challenges, implementing improvements and integrating robotic systems into the broader warehouse infrastructure in coordination with various departments. I executed intricate examinations of all operational facets to discern and rectify process bottlenecks within the system, offering recommendations that resulted in an 18% improvement in efficiency over six months. Additionally, I ensured precision throughout order fulfillment, maintaining an order accuracy rate exceeding 99% in a fast-paced center.",
-        skills: ["Android", "Problem Solving", "Lead", "Robotics"]
+        position: "ICQA Program Developer",
+        description: "As an ICQA Program Developer at Amazon, I developed and implemented automated tools to enhance inventory accuracy and streamline product movement, boosting overall efficiency in the distribution center. I analyzed data to identify trends and areas for improvement, using insights to propose technological solutions for better inventory management and quality control. Collaborating closely with operations, engineering, and software development teams, I ensured seamless integration of new programs into existing systems. Additionally, I led projects to optimize ICQA processes, managing schedules and resources for successful implementation.",
+        skills: ["Python", "Pandas", "GraphQL", "Macros", "APIs", "VBA", "Problem Solving"]
     },
     {
         period: "JAN 2014 - MAR 2018",
